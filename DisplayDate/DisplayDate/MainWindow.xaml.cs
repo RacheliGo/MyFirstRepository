@@ -24,7 +24,7 @@ namespace DisplayDate
         public MainWindow()
         {
             InitializeComponent();
-            DateLable.Content = newTime;
+            DateLable.Content = newTime.ToString();
         }
     }
 }
