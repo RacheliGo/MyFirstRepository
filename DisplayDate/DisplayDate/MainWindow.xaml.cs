@@ -20,9 +20,11 @@ namespace DisplayDate
     /// </summary>
     public partial class MainWindow : Window
     {
+        DateTime newTime = DateTime.Now;
         public MainWindow()
         {
             InitializeComponent();
+            DateLable.Content = newTime;
         }
     }
 }
