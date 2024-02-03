@@ -20,6 +20,7 @@ namespace DisplayDate
     /// </summary>
     public partial class MainWindow : Window
     {
+        int x = 5;
         DateTime newTime = DateTime.Now;
         public MainWindow()
         {
