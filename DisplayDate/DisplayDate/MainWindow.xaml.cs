@@ -21,6 +21,7 @@ namespace DisplayDate
     public partial class MainWindow : Window
     {
         int x = 5;
+        int y = 6;
         DateTime newTime = DateTime.Now;
         public MainWindow()
         {
